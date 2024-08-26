@@ -1,0 +1,3 @@
+/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/cmake-build-debug/CMakeFiles/I2STEST.elf.dir
+/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/cmake-build-debug/CMakeFiles/rebuild_cache.dir
