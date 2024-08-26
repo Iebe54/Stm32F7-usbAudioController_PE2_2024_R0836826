@@ -274,6 +274,7 @@ uint8_t ReadTouch(uint8_t ucResetButton) {
 }
 
 /* USER CODE END 0 */
+testestsetste
 
 /**
   * @brief  The application entry point.
