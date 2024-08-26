@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S "/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST" -B "/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/cmake-build-debug"
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S "/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826" -B "/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug"
 CMake Deprecation Warning:
   Support for "Extra Generators" like
 
@@ -11,4 +11,4 @@ CMake Deprecation Warning:
 -- Minimal optimization, debug info included
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
--- Build files have been written to: /Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/cmake-build-debug
+-- Build files have been written to: /Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug

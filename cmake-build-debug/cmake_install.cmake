@@ -1,4 +1,4 @@
-# Install script for directory: /Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST
+# Install script for directory: /Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

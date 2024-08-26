@@ -25,7 +25,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Generic.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/ProcessorCount.cmake"
-  "/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/CMakeLists.txt"
+  "/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/CMakeLists.txt"
   "CMakeFiles/3.28.1/CMakeASMCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeCXXCompiler.cmake"

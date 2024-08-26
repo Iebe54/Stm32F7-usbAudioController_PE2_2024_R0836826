@@ -38,6 +38,29 @@
 
 /* the delay before the screensaver is activated */
 #define SCREENSAVER_DELAY 30000
+#define REFRESH_DISP() \
+    do { \
+        BSP_LCD_SelectLayer(1); \
+        BSP_LCD_Clear(0x00000000); \
+        BSP_LCD_FillRect(395, channelVolume[channelSelect], 45, 20); \
+        BSP_LCD_FillRect(20, left_slider, 45, 20); \
+        BSP_LCD_FillRect(135, right_slider, 45, 20);\
+        } while(0)
+#define SET_LEFT(x) \
+    do { \
+        channelVolume[0] = x; \
+        channelVolume[2] = x; \
+        channelVolume[4] = x; \
+        channelVolume[6] = x; \
+    } while(0)
+#define SET_RIGHT(x) \
+    do {         \
+        channelVolume[1] = x; \
+        channelVolume[3] = x; \
+        channelVolume[5] = x;             \
+        channelVolume[7] = x; \
+    } while(0)
+
 
 /* USER CODE END PD */
 
@@ -85,9 +108,10 @@ uint8_t volumeControl[16];
 //channel select
 uint8_t channelSelect = 2;
 //channel volume
-uint8_t channelVolume[8] = {100, 100, 100, 100, 100, 100, 100, 100};
+uint8_t channelVolume[8] = {20, 40, 60, 80, 100, 120, 140, 160};
+//the flag for the channel lock
+uint8_t lock = 0;
 /* USER CODE END PV */
-
 
 
 /* Private function prototypes -----------------------------------------------*/
@@ -156,125 +180,162 @@ uint8_t ReadTouch(uint8_t ucResetButton) {
     uint32_t ulSysTick_New_Time;
     TS_StateTypeDef TS_State;
     BSP_TS_GetState(&TS_State);
-    while (TS_State.touchDetected == 1) {
-        BSP_TS_GetState(&TS_State);
-        ulSysTick_New_Time = HAL_GetTick();
-        if (ulSysTick_New_Time >= (ulSysTick_Old_Time )) {
-            ucResetButton = 0;
-            if ((TS_State.touchX[0] <= 125) && (TS_State.touchX[0] >= 80) && (TS_State.touchY[0] <= 155) && (TS_State.touchY[0] >= 110)) {
-                ulSysTick_Old_Time = ulSysTick_New_Time;
-                printf("left and right channel locked\n");
-                HAL_Delay(touch_delay);
-            }
-            if ((TS_State.touchX[0] <= 315) && (TS_State.touchX[0] >= 270) && (TS_State.touchY[0] <= 85) && (TS_State.touchY[0] >= 40)) {
-                ulSysTick_Old_Time = ulSysTick_New_Time;
-                printf("channel 1 selected \n");
-                channelSelect = 1;
-                HAL_Delay(touch_delay);
-            }
-            if ((TS_State.touchX[0] <= 315) && (TS_State.touchX[0] >= 270) && (TS_State.touchY[0] <= 137) && (TS_State.touchY[0] >= 92)) {
-                ulSysTick_Old_Time = ulSysTick_New_Time;
-                printf("channel 2 selected \n");
-                channelSelect = 2;
-                HAL_Delay(touch_delay);
-            }
-            if ((TS_State.touchX[0] <= 315) && (TS_State.touchX[0] >= 270) && (TS_State.touchY[0] <= 189) && (TS_State.touchY[0] >= 144)) {
-                ulSysTick_Old_Time = ulSysTick_New_Time;
-                printf("channel 3 selected \n");
-                channelSelect = 3;
-                HAL_Delay(touch_delay);
-            }
-            if ((TS_State.touchX[0] <= 315) && (TS_State.touchX[0] >= 270) && (TS_State.touchY[0] <= 241) && (TS_State.touchY[0] >= 196)) {
-                ulSysTick_Old_Time = ulSysTick_New_Time;
-                printf("channel 4 selected \n");
-                channelSelect = 4;
-                HAL_Delay(touch_delay);
-            }
-            if ((TS_State.touchX[0] <= 385) && (TS_State.touchX[0] >= 340) && (TS_State.touchY[0] <= 85) && (TS_State.touchY[0] >= 40)) {
-                ulSysTick_Old_Time = ulSysTick_New_Time;
-                printf("channel 5 selected \n");
-                channelSelect = 5;
-                HAL_Delay(touch_delay);
-            }
-            if ((TS_State.touchX[0] <= 385) && (TS_State.touchX[0] >= 340) && (TS_State.touchY[0] <= 137) && (TS_State.touchY[0] >= 92)) {
-                ulSysTick_Old_Time = ulSysTick_New_Time;
-                printf("channel 6 selected \n");
-                channelSelect = 6;
-                HAL_Delay(touch_delay);
-            }
-            if ((TS_State.touchX[0] <= 385) && (TS_State.touchX[0] >= 340) && (TS_State.touchY[0] <= 189) && (TS_State.touchY[0] >= 144)) {
-                ulSysTick_Old_Time = ulSysTick_New_Time;
-                printf("channel 7 selected \n");
-                channelSelect = 7;
-                HAL_Delay(touch_delay);
-            }
-            if ((TS_State.touchX[0] <= 385) && (TS_State.touchX[0] >= 340) && (TS_State.touchY[0] <= 241) && (TS_State.touchY[0] >= 196)) {
-                ulSysTick_Old_Time = ulSysTick_New_Time;
-                printf("channel 8 selected \n");
-                channelSelect = 8;
-                HAL_Delay(touch_delay);
-            }
-            if ((TS_State.touchX[0] <= 65) && (TS_State.touchX[0] >= 20) && (TS_State.touchY[0] <= left_slider+25) && (TS_State.touchY[0] >= left_slider-10)) {
-                ulSysTick_Old_Time = ulSysTick_New_Time;
-                printf("left slider selected \n");
-                left_slider = TS_State.touchY[0];
-                BSP_LCD_SelectLayer(1);
-                BSP_LCD_Clear(LCD_COLOR_WHITE);
-                //individual slidyboy
-                BSP_LCD_FillRect(395, channelVolume[channelSelect], 45, 20);
-                //left slidyboy
-                BSP_LCD_FillRect(20, left_slider, 45, 20);
-                //right slidyboy
-                BSP_LCD_FillRect(135, right_slider, 45, 20);
-            }
-            if ((TS_State.touchX[0] <= 180) && (TS_State.touchX[0] >= 135) && (TS_State.touchY[0] <= right_slider+25) && (TS_State.touchY[0] >= right_slider-10)) {
-                ulSysTick_Old_Time = ulSysTick_New_Time;
-                printf("right slider selected \n");
-                right_slider = TS_State.touchY[0];
-                BSP_LCD_SelectLayer(1);
-                BSP_LCD_Clear(LCD_COLOR_WHITE);
-                //individual slidyboy
-                BSP_LCD_FillRect(395, channelVolume[channelSelect], 45, 20);
-                //left slidyboy
-                BSP_LCD_FillRect(20, left_slider, 45, 20);
-                //right slidyboy
-                BSP_LCD_FillRect(135, right_slider, 45, 20);
-            }
-            if ((TS_State.touchX[0] <= 440) && (TS_State.touchX[0] >= 395) && (TS_State.touchY[0] <= (volumeControl[channelSelect]+25)) && (TS_State.touchY[0] >= (volumeControl[channelSelect]-10))) {
-                ulSysTick_Old_Time = ulSysTick_New_Time;
-                printf("individual slider selected \n");
-                volumeControl[channelSelect] = TS_State.touchY[0];
-                BSP_LCD_SelectLayer(1);
-                BSP_LCD_Clear(LCD_COLOR_WHITE);
-                //individual slidyboy
-                BSP_LCD_FillRect(395, channelVolume[channelSelect], 45, 20);
-                //left slidyboy
-                BSP_LCD_FillRect(20, left_slider, 45, 20);
-                //right slidyboy
-                BSP_LCD_FillRect(135, right_slider, 45, 20);
+    if (TS_State.touchDetected == 0) {
+//        printf("Touch not detected\n");
+        return ucResetButton;
+    }
+    else {
+        uint8_t usedChannel = channelVolume[channelSelect];
+        while (TS_State.touchDetected == 1) {
+            BSP_TS_GetState(&TS_State);
+            ulSysTick_New_Time = HAL_GetTick();
+            if (ulSysTick_New_Time >= (ulSysTick_Old_Time)) {
+                ucResetButton = 0;
+                //L/R lock
+                if ((TS_State.touchX[0] <= 125) && (TS_State.touchX[0] >= 80) && (TS_State.touchY[0] <= 155) &&
+                    (TS_State.touchY[0] >= 110)) {
+                    ulSysTick_Old_Time = ulSysTick_New_Time;
+                    printf("left and right channel locked\n");
+                    if (lock == 0) {
+                        lock = 1;
+                    }
+                    else {
+                        lock = 0;
+                    }
+                    REFRESH_DISP();
+
+                } //channel 1 select
+                if ((TS_State.touchX[0] <= 315) && (TS_State.touchX[0] >= 270) && (TS_State.touchY[0] <= 85) &&
+                    (TS_State.touchY[0] >= 40)) {
+                    ulSysTick_Old_Time = ulSysTick_New_Time;
+                    printf("channel 1 selected \n");
+                    channelSelect = 1;
+                    REFRESH_DISP();
+                } //channel 2 select
+                if ((TS_State.touchX[0] <= 315) && (TS_State.touchX[0] >= 270) && (TS_State.touchY[0] <= 137) &&
+                    (TS_State.touchY[0] >= 92)) {
+                    ulSysTick_Old_Time = ulSysTick_New_Time;
+                    printf("channel 2 selected \n");
+                    channelSelect = 2;
+                    REFRESH_DISP();
+                } //channel 3 select
+                if ((TS_State.touchX[0] <= 315) && (TS_State.touchX[0] >= 270) && (TS_State.touchY[0] <= 189) &&
+                    (TS_State.touchY[0] >= 144)) {
+                    ulSysTick_Old_Time = ulSysTick_New_Time;
+                    printf("channel 3 selected \n");
+                    channelSelect = 3;
+                    REFRESH_DISP();
+                } //channel 4 select
+                if ((TS_State.touchX[0] <= 315) && (TS_State.touchX[0] >= 270) && (TS_State.touchY[0] <= 241) &&
+                    (TS_State.touchY[0] >= 196)) {
+                    ulSysTick_Old_Time = ulSysTick_New_Time;
+                    printf("channel 4 selected \n");
+                    channelSelect = 4;
+                    REFRESH_DISP();
+                } //channel 5 select
+                if ((TS_State.touchX[0] <= 385) && (TS_State.touchX[0] >= 340) && (TS_State.touchY[0] <= 85) &&
+                    (TS_State.touchY[0] >= 40)) {
+                    ulSysTick_Old_Time = ulSysTick_New_Time;
+                    printf("channel 5 selected \n");
+                    channelSelect = 5;
+                    REFRESH_DISP();
+                } //channel 6 select
+                if ((TS_State.touchX[0] <= 385) && (TS_State.touchX[0] >= 340) && (TS_State.touchY[0] <= 137) &&
+                    (TS_State.touchY[0] >= 92)) {
+                    ulSysTick_Old_Time = ulSysTick_New_Time;
+                    printf("channel 6 selected \n");
+                    channelSelect = 6;
+                    REFRESH_DISP();
+                } //channel 7 select
+                if ((TS_State.touchX[0] <= 385) && (TS_State.touchX[0] >= 340) && (TS_State.touchY[0] <= 189) &&
+                    (TS_State.touchY[0] >= 144)) {
+                    ulSysTick_Old_Time = ulSysTick_New_Time;
+                    printf("channel 7 selected \n");
+                    channelSelect = 7;
+                    REFRESH_DISP();
+                }  //channel 8 select
+                if ((TS_State.touchX[0] <= 385) && (TS_State.touchX[0] >= 340) && (TS_State.touchY[0] <= 241) &&
+                    (TS_State.touchY[0] >= 196)) {
+                    ulSysTick_Old_Time = ulSysTick_New_Time;
+                    printf("channel 8 selected \n");
+                    channelSelect = 8;
+                    REFRESH_DISP();
+                } //left slider
+                if ((TS_State.touchX[0] <= 65) && (TS_State.touchX[0] >= 20) &&
+                    (TS_State.touchY[0] <= left_slider + 25) && (TS_State.touchY[0] >= left_slider - 10)) {
+                    ulSysTick_Old_Time = ulSysTick_New_Time;
+                    printf("left slider selected \n");
+                    if (lock == 0) {
+                        left_slider = TS_State.touchY[0];
+                        SET_LEFT(left_slider);
+                    }
+                    if (lock == 1) {
+                        left_slider = TS_State.touchY[0];
+                        right_slider = TS_State.touchY[0];
+                        SET_LEFT(left_slider);
+                        SET_RIGHT(right_slider);
+                    }
+                    REFRESH_DISP();
+                } //right slider
+                if ((TS_State.touchX[0] <= 180) && (TS_State.touchX[0] >= 135) &&
+                    (TS_State.touchY[0] <= right_slider + 25) && (TS_State.touchY[0] >= right_slider - 10)) {
+                    ulSysTick_Old_Time = ulSysTick_New_Time;
+                    printf("right slider selected \n");
+                    if (lock == 0) {
+                        right_slider = TS_State.touchY[0];
+                        SET_RIGHT(right_slider);
+                    }
+                    if (lock == 1) {
+                        left_slider = TS_State.touchY[0];
+                        right_slider = TS_State.touchY[0];
+                        SET_LEFT(left_slider);
+                        SET_RIGHT(right_slider);
+                    }
+                    REFRESH_DISP();
+                } //individual slider
+                if ((TS_State.touchX[0] <= 440) && (TS_State.touchX[0] >= 395) &&
+                    (TS_State.touchY[0] <= (channelVolume[channelSelect] + 25)) &&
+                    (TS_State.touchY[0] >= (channelVolume[channelSelect] - 10))) {
+                    ulSysTick_Old_Time = ulSysTick_New_Time;
+                    printf("individual slider selected \n");
+                    channelVolume[channelSelect] = TS_State.touchY[0];
+                    REFRESH_DISP();
+                }
+                else {
+                    printf("Touch started\n");
+                }
             }
             else {
-                printf("Touch initialised\n");
+                printf("Touch initialise could not be completed\n");
             }
-        } else {
-            printf("Touch initialise could not be completed\n");
         }
-    }
-    for (int i = 0; i < 16; ++i) {
-        if (i%2 != 0) {
-            volumeControl[i] = channelVolume[i/2];
-        } else {
+        volumeControl[channelSelect] = usedChannel;
+        for (int i = 0; i < 16; ++i) {
+            if (i % 2 != 0) {
+                volumeControl[i] = channelVolume[i / 2];
+            } else {
+            }
         }
+        for (int i = 0; i < sizeof(channelVolume); ++i) {
+            printf("adress: %d, Channel volume: %d\n", volumeControl[i * 2], volumeControl[(i * 2) + 1]);
+        }
+        HAL_I2C_Master_Transmit(&hi2c1, 0x90, (uint8_t *) volumeControl, 16, HAL_MAX_DELAY);
+        HAL_Delay(100);
     }
-    for (int i = 0; i < sizeof(channelVolume); ++i) {
-        printf("adress: %d, Channel volume: %d\n", volumeControl[i*2], volumeControl[(i*2)+1]);
-    }
-    HAL_I2C_Master_Transmit(&hi2c1, 0x90, (uint8_t *) volumeControl, 16, HAL_MAX_DELAY);
-    return ucResetButton;
 }
 
+void refreshDisp() {
+    BSP_LCD_SelectLayer(1);
+    BSP_LCD_Clear(0x00000000);
+    //individual slidyboy
+    BSP_LCD_FillRect(395, channelVolume[channelSelect], 45, 20);
+    //left slidyboy
+    BSP_LCD_FillRect(20, left_slider, 45, 20);
+    //right slidyboy
+    BSP_LCD_FillRect(135, right_slider, 45, 20);
+    HAL_Delay(touch_delay);
+}
 /* USER CODE END 0 */
-testestsetste
 
 /**
   * @brief  The application entry point.
@@ -320,35 +381,56 @@ int main(void)
 
   /* Initialize interrupts */
   MX_NVIC_Init();
+
+
   /* USER CODE BEGIN 2 */
+
+  //initialing fase
     printf("Running PE2 by IEBE NIJS\n");
     printf("Audio controller v1\n");
+
     /* Init the SDRAM */
     BSP_QSPI_Init();
     BSP_QSPI_MemoryMappedMode();
     WRITE_REG(QUADSPI->LPTR, 0xFFF);
+
     /* Init the LCD */
     BSP_LCD_Init();
     BSP_LCD_LayerDefaultInit(1, LCD_FB_START_ADDRESS);
     BSP_LCD_LayerDefaultInit(0, LCD_FB_START_ADDRESS + (480 * 272 * 4));
-    /* Enable the LCD */
     BSP_LCD_DisplayOn();
-    /* Select the LCD Background Layer  */
+    //clear the display
     BSP_LCD_SelectLayer(0);
-    BSP_LCD_SetLayerVisible(0, ENABLE);
-    /* Clear the Background Layer */
     BSP_LCD_Clear(LCD_COLOR_WHITE);
-    BSP_LCD_SetBackColor(LCD_COLOR_GRAY);
-    BSP_LCD_SetTextColor(LCD_COLOR_RED);
+    BSP_LCD_SelectLayer(1);
+    BSP_LCD_Clear(0x00000000);
+
+    /* Init the touchscreen */
+    BSP_TS_Init(480, 272);
+
+    /* Backlight */
+    HAL_GPIO_WritePin(LCD_BL_CTRL_GPIO_Port,LCD_BL_CTRL_Pin,GPIO_PIN_SET);
+
+    /* Assert display enable LCD_DISP pin */
+    HAL_GPIO_WritePin(LCD_DISP_GPIO_Port, LCD_DISP_Pin, GPIO_PIN_SET);
+
+    /*------------------------------------------------------------------------------------------------------------------------*/
+
     /*draw UI*/
+    //select the first layer
+    BSP_LCD_SelectLayer(0);
+    //set color to black
+    BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
     //left slider
     BSP_LCD_FillRect(35, 40, 15, 201);
     //right slider
     BSP_LCD_FillRect(150, 40, 15, 201);
-    //lock button
-    BSP_LCD_FillRect(80, 110, 45, 45);
     //individual slider
     BSP_LCD_FillRect(410, 40, 15, 201);
+    //set color to red
+    BSP_LCD_SetTextColor(LCD_COLOR_RED);
+    //lock button
+    BSP_LCD_FillRect(80, 110, 45, 45);
     //channel 1
     BSP_LCD_FillRect(270, 40, 45, 45);
     //channel 2
@@ -366,33 +448,28 @@ int main(void)
     //channel 8
     BSP_LCD_FillRect(340, 196, 45, 45);
 
-    /* Select the LCD Foreground Layer  */
+    //select the second layer
     BSP_LCD_SelectLayer(1);
-    /* Clear the foreground Layer */
-    /* Some sign */
     BSP_LCD_SetTextColor(LCD_COLOR_RED);
-    BSP_LCD_SetFont(&Font12);
-
+    //draw the sliders
     //left slidyboy
     BSP_LCD_FillRect(20, left_slider, 45, 20);
     //right slidyboy
     BSP_LCD_FillRect(135, right_slider, 45, 20);
     //individual slidyboy
     BSP_LCD_FillRect(395, channelVolume[channelSelect], 45, 20);
-//    BSP_LCD_DisplayStringAt(0, 0, (uint8_t *) "Display is working", CENTER_MODE);
-//    char buffer[50];
-//    sprintf(buffer, "Screensaver delay is set to: %ds", SCREENSAVER_DELAY / 1000);
-//    BSP_LCD_DisplayStringAt(0, 12, (uint8_t *) buffer, CENTER_MODE);
 
-    /* Init touch screen */
-    BSP_TS_Init(480, 272);
-    /* Backlight */
-    HAL_GPIO_WritePin(LCD_BL_CTRL_GPIO_Port,LCD_BL_CTRL_Pin,GPIO_PIN_SET);
-    /* Assert display enable LCD_DISP pin */
-    HAL_GPIO_WritePin(LCD_DISP_GPIO_Port, LCD_DISP_Pin, GPIO_PIN_SET);
+    /*------------------------------------------------------------------------------------------------------------------------*/
 
+    /* Init the I2C */
     HAL_I2C_Master_Transmit(&hi2c1, 0x34, (uint8_t *) dataToSend, 400, HAL_MAX_DELAY);
+
+    /*------------------------------------------------------------------------------------------------------------------------*/
+
+    /* Init the SAI */
     HAL_SAI_Transmit(&hsai_BlockB1, (uint8_t *) dataToSend, 400, HAL_MAX_DELAY);
+    /*------------------------------------------------------------------------------------------------------------------------*/
+
   /* USER CODE END 2 */
 
   /* Infinite loop */

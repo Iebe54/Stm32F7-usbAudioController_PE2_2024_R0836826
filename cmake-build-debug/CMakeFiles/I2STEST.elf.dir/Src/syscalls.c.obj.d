@@ -1,5 +1,5 @@
 CMakeFiles/I2STEST.elf.dir/Src/syscalls.c.obj: \
- /Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/Src/syscalls.c \
+ /Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Src/syscalls.c \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/stat.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \

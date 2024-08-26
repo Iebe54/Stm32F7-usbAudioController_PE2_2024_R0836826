@@ -1,3 +1,3 @@
-/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/cmake-build-debug/CMakeFiles/I2STEST.elf.dir
-/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/CMakeFiles/I2STEST.elf.dir
+/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/CMakeFiles/rebuild_cache.dir

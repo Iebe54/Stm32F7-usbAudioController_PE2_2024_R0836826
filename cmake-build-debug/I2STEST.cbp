@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/cmake-build-debug"/>
+				<Option working_dir="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="I2STEST.elf">
-				<Option output="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/cmake-build-debug/I2STEST.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/cmake-build-debug"/>
+				<Option output="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/I2STEST.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -27,14 +27,14 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F746xx"/>
-					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Inc"/>
-					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc"/>
-					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Device/ST/STM32F7xx/Include"/>
-					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include"/>
-					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Inc"/>
-					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
-					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc"/>
+					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Inc"/>
+					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Device/ST/STM32F7xx/Include"/>
+					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Inc"/>
+					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc"/>
 					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1"/>
 					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi"/>
 					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward"/>
@@ -43,15 +43,15 @@
 					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 I2STEST.elf"/>
-					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 I2STEST.elf"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="I2STEST.elf/fast">
-				<Option output="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/cmake-build-debug/I2STEST.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/cmake-build-debug"/>
+				<Option output="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/I2STEST.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -59,14 +59,14 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F746xx"/>
-					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Inc"/>
-					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc"/>
-					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Device/ST/STM32F7xx/Include"/>
-					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include"/>
-					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Inc"/>
-					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
-					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc"/>
+					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Inc"/>
+					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Device/ST/STM32F7xx/Include"/>
+					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Inc"/>
+					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc"/>
 					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1"/>
 					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi"/>
 					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward"/>
@@ -75,508 +75,508 @@
 					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 I2STEST.elf/fast"/>
-					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 I2STEST.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/cmake-build-debug"/>
+				<Option working_dir="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/cmake-build-debug"/>
+				<Option working_dir="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/I2STEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische\ enterprice\ 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/.DS_Store">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/.DS_Store">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/.DS_Store">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/.DS_Store">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Components/lan8742/lan8742.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Components/lan8742/lan8742.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Components/lan8742/lan8742.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Components/lan8742/lan8742.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Fonts/font12.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Fonts/font12.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Fonts/font16.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Fonts/font16.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Fonts/font20.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Fonts/font20.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Fonts/font24.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Fonts/font24.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Fonts/font8.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Fonts/font8.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Inc/.DS_Store">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Inc/.DS_Store">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Inc/fonts.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Inc/fonts.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Inc/ft5336.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Inc/ft5336.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Inc/n25q128a.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Inc/n25q128a.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Inc/rk043fn48h.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Inc/rk043fn48h.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Inc/stm32746g_discovery.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Inc/stm32746g_discovery.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Inc/stm32746g_discovery_eeprom.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Inc/stm32746g_discovery_eeprom.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Inc/stm32746g_discovery_lcd.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Inc/stm32746g_discovery_lcd.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Inc/stm32746g_discovery_qspi.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Inc/stm32746g_discovery_qspi.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Inc/stm32746g_discovery_sdram.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Inc/stm32746g_discovery_sdram.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Inc/stm32746g_discovery_ts.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Inc/stm32746g_discovery_ts.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Inc/ts.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Inc/ts.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Src/.DS_Store">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Src/.DS_Store">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Src/ft5336.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Src/ft5336.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Src/stm32746g_discovery.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Src/stm32746g_discovery.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Src/stm32746g_discovery_eeprom.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Src/stm32746g_discovery_eeprom.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Src/stm32746g_discovery_lcd.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Src/stm32746g_discovery_lcd.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Src/stm32746g_discovery_qspi.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Src/stm32746g_discovery_qspi.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Src/stm32746g_discovery_sdram.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Src/stm32746g_discovery_sdram.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/BSP/Src/stm32746g_discovery_ts.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/BSP/Src/stm32746g_discovery_ts.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f746xx.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f746xx.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Device/ST/STM32F7xx/Include/system_stm32f7xx.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Device/ST/STM32F7xx/Include/system_stm32f7xx.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Device/ST/STM32F7xx/LICENSE.txt">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Device/ST/STM32F7xx/LICENSE.txt">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/cmsis_armcc.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/cmsis_armcc.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/cmsis_armclang.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/cmsis_armclang.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/cmsis_compiler.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/cmsis_compiler.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/cmsis_gcc.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/cmsis_gcc.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/cmsis_iccarm.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/cmsis_iccarm.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/cmsis_version.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/cmsis_version.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/core_armv8mbl.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/core_armv8mbl.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/core_armv8mml.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/core_armv8mml.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/core_cm0.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/core_cm0.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/core_cm0plus.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/core_cm0plus.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/core_cm1.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/core_cm1.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/core_cm23.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/core_cm23.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/core_cm3.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/core_cm3.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/core_cm33.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/core_cm33.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/core_cm4.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/core_cm4.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/core_cm7.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/core_cm7.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/core_sc000.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/core_sc000.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/core_sc300.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/core_sc300.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/mpu_armv7.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/mpu_armv7.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/mpu_armv8.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/mpu_armv8.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/Include/tz_context.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/Include/tz_context.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/CMSIS/LICENSE.txt">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/CMSIS/LICENSE.txt">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/.DS_Store">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/.DS_Store">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/.DS_Store">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/.DS_Store">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_cortex.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_cortex.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_def.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_def.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma2d.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma2d.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma_ex.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma_ex.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dsi.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dsi.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_exti.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_exti.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_flash.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_flash.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_flash_ex.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_flash_ex.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_gpio.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_gpio.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_gpio_ex.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_gpio_ex.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2c.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2c.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2c_ex.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2c_ex.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2s.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2s.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_ltdc.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_ltdc.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_ltdc_ex.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_ltdc_ex.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr_ex.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr_ex.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_qspi.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_qspi.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc_ex.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc_ex.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_sai.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_sai.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_sai_ex.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_sai_ex.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_sdram.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_sdram.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_bus.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_bus.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_cortex.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_cortex.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_dma.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_dma.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_dma2d.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_dma2d.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_exti.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_exti.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_fmc.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_fmc.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_i2c.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_i2c.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_pwr.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_pwr.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_rcc.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_rcc.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_system.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_system.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usart.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usart.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usb.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usb.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_utils.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_utils.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/LICENSE.txt">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/LICENSE.txt">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/.DS_Store">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/.DS_Store">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dsi.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dsi.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2s.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc_ex.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc_ex.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_qspi.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai_ex.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sdram.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_fmc.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc/usbd_audio.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc/usbd_audio.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Src/usbd_audio.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Src/usbd_audio.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/STM32F746NGHX_FLASH.ld">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/STM32F746NGHX_FLASH.ld">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Src/main.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Src/main.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Src/stm32f7xx_hal_msp.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Src/stm32f7xx_hal_msp.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Src/stm32f7xx_it.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Src/stm32f7xx_it.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Src/syscalls.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Src/syscalls.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Src/sysmem.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Src/sysmem.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Src/system_stm32f7xx.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Src/system_stm32f7xx.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Src/usb_device.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Src/usb_device.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Src/usbd_audio_if.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Src/usbd_audio_if.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Src/usbd_conf.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Src/usbd_conf.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Src/usbd_desc.c">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Src/usbd_desc.c">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/Startup/startup_stm32f746nghx.s">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/Startup/startup_stm32f746nghx.s">
 			<Option target="I2STEST.elf"/>
 		</Unit>
-		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/I2STEST/CMakeLists.txt">
+		<Unit filename="/Users/iebe/Documents/aaSchool/2dejaarThomasMore/prattische enterprice 2/code/Stm32F7-usbAudioController_PE2_2024_R0836826/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
